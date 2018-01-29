@@ -1,0 +1,980 @@
+/* do h3 (###) in the sidebar to make a banner at the top of the page*/
+
+.pagename a
+{
+background: url(%%BannerImageHub%%) center !important;
+background-repeat: no-repeat !important;
+position: absolute;
+top: 20px;
+bottom: 0;
+height:350px !important;
+left: 0;
+right: 0;
+float: center;
+z-index: 0;
+background-position: 39px -50px
+}
+
+#header-bottom-left
+{
+height: 350px!important;
+}
+
+#header {
+border: none;
+background: rgb(10, 11, 20);
+}
+
+/* Transparent Bar Thing */
+
+#header-bottom-right {
+  background:transparent !important;
+}
+
+#header-bottom-right {
+  background: rgba(60, 90, 90, .3);
+}
+
+#header-bottom-right a {
+  color:white;
+}
+
+.userkarma {
+    color: white;
+    }
+/* END Transparent Bar Thing */
+
+
+/* makes space for the announcement bar */
+.content {
+   margin-top: 40px;
+}
+
+ /* ---------- ANNOUNCEMENT BAR ---------- */
+ .titlebox h3 {
+padding: 0 13px;
+color: #7D7D7D;
+border: 1px solid #DDDDDD;
+background: #DDD;
+z-index: 2 !important;
+ }
+
+  .titlebox h3 {
+position: absolute;
+display: block;
+top: 370px;
+left: 15px;
+line-height: 35px;
+-webkit-border-radius: 3px;
+-o-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+border-radius: 3px;
+text-align:left;
+right:321px;
+}
+
+ /* ---------- END ANNOUNCEMENT BAR ---------- */
+
+/*Can insert actual good header here once it's made*/
+#header {
+border: none;
+background: rgb(10, 11, 20);
+}
+
+
+.redditname a
+{
+text-indent: -9000px;
+}
+
+
+/* TABS */
+
+#header .tabmenu {
+  margin: 0;
+  position: absolute;
+  top: 252px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+#header .tabmenu li a {
+  background: transparent;
+  color: #AEAEAE;
+  font-size: 13px;
+  font-family: century gothic;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  /* text-transform: uppercase; */
+}
+
+#header .tabmenu li a:hover {
+  color: #FFFFFF;
+}
+
+#header .tabmenu li.selected a {
+  color: #FFFFFF;
+  background: transparent;
+  border: none;
+  z-index: 100;
+}  
+
+/* END TABS */
+
+
+
+#header-bottom-left
+{
+height: 200px;
+}
+
+#header-img {
+width: 100px !important;
+position: absolute;
+bottom: 0;
+z-index: 1;
+}
+
+
+#header-bottom-right { background-color: white; } 
+
+body, .side, .icon-menu a, .side .spacer
+{
+background:url(%%Background%%);
+}
+
+.morelink .nub
+{
+display: none;
+}
+
+/* Mindcrack title box (from r/mindcrack) */
+
+.titlebox .usertext-body .md h4 {
+    display: block;
+    height: 20px;
+    top: 160px !important;
+    left: 0px;
+    right: 0px;
+    margin-left: -2px;
+    margin-right: 320px;
+    background-color: #DDD;
+    background-position: right center;
+    background-repeat: no-repeat;
+    font-size: 90%;
+    position: absolute;
+    border: 1px solid #c2beb2;
+    display: block;
+    line-height: 20px;
+    padding: 4px;
+    padding-left: 6px;
+    font-weight: normal;
+    z-index: 98;
+    overflow: hidden;
+}
+.res-nightmode .titlebox .usertext-body .md h4 {
+    background-color: #444;
+}
+.titlebox .RESUserTag, .titlebox .voteWeight {
+    display: none!important; 
+}
+.titlebox .usertext .md > h1 {
+    background-image: url(%%dark-wall%%);
+    background-repeat: repeat;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 0;
+    margin-right: 13px;
+    margin-left: -5px;
+    border-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    z-index: 100;
+    width: 318px;
+    clear: left;
+}
+.md h1, .md h2, .md h3, .md h4, .md h5, .md h6{
+    font-size: medium;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    border: 0;
+}
+
+
+.side {
+    margin: 0;
+    background-color: #FFF;
+    padding: 10px;
+    border-left: 1px solid #c2beb2;
+    border-bottom: 1px solid #c2beb2;
+    box-shadow: 0 5px 5px #BBB;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.md {
+    overflow: hidden;
+}
+
+/* END Mindcrack style sidebar*/
+
+.side .md ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.side .md ul li {
+    position: relative;
+    border: 1px solid #000;
+    background-color: #444;
+    width: 144px;
+    height: 40px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.side .md ul li:hover {
+    border: 1px solid cyan;
+}
+
+.side .md ul li a[href*="//twitter.com"] {
+    display: block;
+    position: absolute;
+    left: 45px;
+    top: 22px;
+    font-size: 0;
+    text-indent: -999999px;
+    width: 16px;
+    height: 16px;
+    background-image: url(%%twitter%%); 
+    opacity: .5;
+}
+
+.side .md ul li a[href*="/u/"]:hover,.side .md ul li a[href*="//twitter.com"]:hover,.side .md ul li a[href*="http://twitch.tv"]:hover {
+    opacity: 1;
+}
+
+.sheets {
+    margin-right: 325px;
+}
+
+.side .md ul li a[href*="youtube.com"] {
+    color: #FFFFFF;
+    text-shadow: 0.1em 0.1em 1em #000,0.2em 0.2em 1em #000;
+    display: block;
+    float: left;
+    line-height: 16px;
+    padding-left: 48px;
+    padding-top: 3px;
+    z-index: 10;
+    width: 95px;
+    height: 37px;
+    font-size: 10.5px;
+}
+
+.side .md ul li a[href*="playmindcrack.com"] {
+    color: #FFFFFF;
+    text-shadow: 0.1em 0.1em 1em #000,0.2em 0.2em 1em #000;
+    display: block;
+    float: left;
+    line-height: 16px;
+    padding-left: 48px;
+    padding-top: 3px;
+    z-index: 10;
+    width: 95px;
+    height: 37px;
+    font-size: 10.5px;
+}
+
+.side .md ul,
+.side .md ol {
+  padding-left: 0; /* <- or whatever # you need to make it look right */
+}
+
+/* Avatars */
+
+
+.side .md ul [href*="https://www.youtube.com/user/AlienGBlue"] {
+    background-image: url(%%AlienGBlue%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/avenger1825"] {
+    background-image: url(%%avenger1825%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="https://www.youtube.com/channel/UCHkId8pVy35M4YCIde9QM9Q"] {
+    background-image: url(%%BeastileBulldog%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/bobjomac"] {
+    background-image: url(%%bobjomac%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="https://www.youtube.com/user/Camaro6460"] {
+    background-image: url(%%camaro6460%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/ThirdChapterYT"] {
+    background-image: url(%%Chapter-III%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/DjTalica"] {
+    background-image: url(%%DjTalica%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/ERIKZ123"] {
+    background-image: url(%%ERIKZ123%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/GoombaX"] {
+    background-image: url(%%GoombaX%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/heinousd"] {
+    background-image: url(%%heinousd%%);
+    background-repeat: no-repeat;
+
+}
+
+.side .md ul [href*="playmindcrack.com/stats/hurricanestella"] {
+    background-image: url(%%hurricanestella2%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/Jillamy"] {
+    background-image: url(%%Jillamy%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/JKRoberts"] {
+    background-image: url(%%JKRoberts%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="www.youtube.com/channel/UCa5VycUFRs6qXDYhBQ815hQ"] {
+    background-image: url(%%JudoMaster26%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="https://www.youtube.com/user/JustGeraldYT"] {
+    background-image: url(%%Just-Gerald%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/channel/UCMFgD_PSUVj-Lo1u9c4B20w"] {
+    background-image: url(%%Kurstor%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/MattyMooM"] {
+    background-image: url(%%MattyMooM%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/Melekdeniz98"] {
+    background-image: url(%%melekdeniz98%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/Nanvul"] {
+    background-image: url(%%Nanvul%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/mcscrublord"] {
+    background-image: url(%%neelbajaj%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/Nicksantaniello2"] {
+    background-image: url(%%Nicksantaniello2%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/olenik2"] {
+    background-image: url(%%olenik2%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/TheRunnico"] {
+    background-image: url(%%Runnico%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="https://www.youtube.com/user/1sangii99"] {
+    background-image: url(%%sangii99%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/Sheepies123"] {
+    background-image: url(%%Sheepies123%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/Shroomzee"] {
+    background-image: url(%%Shroomzee%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/timmyofpark"] {
+    background-image: url(%%timmyofpark%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/tkderbrad"] {
+    background-image: url(%%tkderbrad%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="playmindcrack.com/stats/Vacillation"] {
+    background-image: url(%%Vacillation%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="http://playmindcrack.com/stats/xMrBoomBasticx"] {
+    background-image: url(%%xMrBoomBasticx%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="http://playmindcrack.com/stats/XXNoPPeXX"] {
+    background-image: url(%%XXNoPPeXX%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="http://playmindcrack.com/stats/xXSteelflexXx"] {
+    background-image: url(%%xXSteelflexXx%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="youtube.com/user/MaybeBrady"] {
+    background-image: url(%%Ydarb67%%);
+    background-repeat: no-repeat;
+}
+
+
+.side .md ul [href*="www.youtube.com/channel/UCkuJxrrkjevjOaVUi064x1w"] {
+    background-image: url(%%Zephyriis%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="https://www.youtube.com/user/HarryTheMan20"] {
+    background-image: url(%%HarryTheMan20%%);
+    background-repeat: no-repeat;
+}
+
+.side .md ul [href*="https://www.youtube.com/user/TetrixxYT"] {
+    background-image: url(%%xTetrixxx%%);
+    background-repeat: no-repeat;
+}
+
+/* END Mindcrack style sidebar*/
+
+
+.link {
+    margin-left:10px;
+    margin-right: 310px;
+    box-shadow:1px 1px 7px #ccc;
+    border-radius:1px;
+    background-color:#fcfcfc;
+    padding:5px;
+    margin-bottom:0 !important;
+}
+
+.link:hover {
+    border-right:3px solid black;
+    background-color:#fff;
+}
+
+
+
+
+/*Flair */
+
+.flairselector .customizer {
+display: none !important;
+}
+
+
+.flair {
+    padding: 0 1px;
+    background: url(%%newspritesheet%%) no-repeat -9999px -9999px;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 18px;
+}
+
+.flair-AlienGBlue {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -10px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Armed-Units-23 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -46px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-BeastileBulldog {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -82px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Chapter-III {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -118px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Deavenmaster {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -154px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-DjTalica {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -190px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-ERIKZ123 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -226px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-GoombaX {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -262px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-HarryTheMan20 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -298px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-HicEstSparta {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -334px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-JKRoberts {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -370px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Jillamy {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -406px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-JudoMaster26 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -442px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Kezza1476 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -478px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Kurstor {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -514px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Lukee412 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -550px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-MachoDagger {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -586px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-MattyMooM {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -622px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Moomoothecow1 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -658px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Nanvul {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -694px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Nathanatortot {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -730px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Nicksantaniello2 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -766px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Runnico {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -802px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Scintillated {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -838px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Scotty-26 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -874px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Sheepies123 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -910px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Shroomzee {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -946px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-TheKid217 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -982px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Vacillation {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1018px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-XXNoPPeXX {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1054px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Ydarb67 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1090px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-Zephyriis {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1126px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-avenger1825 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1162px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-bobjomac {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1198px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-camaro6460 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1234px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-daemonmeisters {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1270px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-dequan5 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1306px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-harleymachine {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1342px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-heinousd {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1378px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-hurricanestella {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1414px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-just-gerald {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1450px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-melekdeniz98 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1486px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-neelbajaj {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1522px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-olenik2 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1558px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-parinfinity {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1594px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-sangii99 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1630px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-timmyofpark {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1666px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-tkderbrad {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1702px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-xMrBoomBasticx {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1738px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-xTetrixxx {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1774px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-xXSteelflexXx {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1810px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+
+.flair-youssof707 {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -1846px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;
+}
+/*.flair-AlienGBlue{ background-position: 0 0; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Armed-Units-23{ background-position: 0 -66px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-BeastileBulldog{ background-position: 0 -132px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Chapter-III{ background-position: 0 -198px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Deavenmaster{ background-position: 0 -264px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-DjTalica{ background-position: 0 -330px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-ERIKZ123{ background-position: 0 -396px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-GoombaX{ background-position: 0 -462px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-HarryTheMan20{ background-position: 0 -528px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-HicEstSparta{ background-position: 0 -594px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-JKRoberts{ background-position: 0 -660px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Jillamy{ background-position: 0 -726px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-JudoMaster26{ background-position: 0 -792px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Just-Gerald{ background-position: 0 -858px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Kezza1476{ background-position: 0 -924px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Kurstor{ background-position: 0 -990px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Lukee412{ background-position: 0 -1056px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-MachoDagger{ background-position: 0 -1122px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-MattyMooM{ background-position: 0 -1188px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Moomoothecow1{ background-position: 0 -1254px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Nanvul{ background-position: 0 -1320px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Nathanatortot{ background-position: 0 -1386px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Nicksantaniello2{ background-position: 0 -1452px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Runnico{ background-position: 0 -1518px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Scintillated{ background-position: 0 -1584px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Scotty-26{ background-position: 0 -1650px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Sheepies123{ background-position: 0 -1716px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Shroomzee{ background-position: 0 -1782px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-TheKid217{ background-position: 0 -1848px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Vacillation{ background-position: 0 -1914px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-XXNoPPeXX{ background-position: -116px 0; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Ydarb67{ background-position: -116px -66px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-Zephyriis{ background-position: -116px -132px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-avenger1825{ background-position: -116px -198px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-bobjomac{ background-position: -116px -264px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-camaro6460{ background-position: -116px -330px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-daemonmeisters{ background-position: -116px -396px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-dequan5{ background-position: -116px -462px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-harleymachine{ background-position: -116px -528px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-heinousd{ background-position: -116px -594px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-hurricanestella{ background-position: -116px -660px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-melekdeniz98{ background-position: -116px -726px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-neelbajaj{ background-position: -116px -792px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-olenik2{ background-position: -116px -858px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-parinfinity{ background-position: -116px -924px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-sangii99{ background-position: -116px -990px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-timmyofpark{ background-position: -116px -1056px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-tkderbrad{ background-position: -116px -1122px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-xMrBoomBasticx{ background-position: -116px -1188px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-xXSteelflexXx{ background-position: -116px -1254px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} 
+.flair-youssof707{ background-position: -116px -1320px; width: 16px; height: 16px; background-color: #222; color: #FFF; border: 1px solid #0000FF; text-indent: 20px; width: auto; padding-right: 5px;} */
+
+
+.linkflair-Vote .linkflairlabel {
+    background-color: #add5ab;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Announcement .linkflairlabel {
+    background-color: #00FFFF;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Upcoming-Event .linkflairlabel {
+    background-color: #9B8ED6;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Project .linkflairlabel {
+    background-color: #EB5454;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Meta .linkflairlabel {
+    background-color: #EBE154;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Video .linkflairlabel {
+    background-color: #F2A15A;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Discussion .linkflairlabel {
+    background-color: #F779C9;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Screenshot .linkflairlabel {
+    background-color: #4D82FF;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-Miscellaneous .linkflairlabel {
+    background-color: #B2C1CF;
+    font-size: 11px;
+    font-weight: bold;
+    color:#000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 3px;
+}
